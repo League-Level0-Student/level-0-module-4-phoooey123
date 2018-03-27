@@ -1,7 +1,6 @@
 //    Copyright (c) The League of Amazing Programmers 2013-2017
 //    Level 0
 
-
 import javax.swing.JOptionPane;
 
 /*
@@ -23,11 +22,10 @@ public class ChangeCalculator {
 		// Ask the user how many quarters they have, and convert their answer
 		String quarters1 = JOptionPane.showInputDialog("How many quarters?");
 		int quarters = Integer.parseInt(quarters1);
-		// Calculate how much money the user has and save it in a double variable 
-		double total = nickels*0.5 + quarters*0.25 + dimes*0.10;
-		
+		// Calculate how much money the user has and save it in a double variable
+		double total = nickels * 0.05 + quarters * 0.25 + dimes * 0.10;
+
 		// Tell the user how much money they have
 		JOptionPane.showMessageDialog(null, "You have $" + total);
 	}
 }
-
